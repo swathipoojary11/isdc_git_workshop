@@ -1,1 +1,24 @@
-my name is swathi ,today we had session on git hub and git organised by iscd  git
+my name is swathi ,today we had session on git hub and git organised by iscd  gitgi
+PS C:\GIT SESSION> git clone https://github.com/swathipoojary11/isdc_git_workshop.git
+Cloning into 'isdc_git_workshop'...
+warning: You appear to have cloned an empty repository.
+PS C:\GIT SESSION> cd
+PS C:\GIT SESSION> cd isdc_git_workshop
+PS C:\GIT SESSION\isdc_git_workshop> git add . 
+PS C:\GIT SESSION\isdc_git_workshop>  git commit -m "i have edited this isdc text file"
+[main (root-commit) e701bfc] i have edited this isdc text file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 isdc.txt
+PS C:\GIT SESSION\isdc_git_workshop> git branch -M main
+PS C:\GIT SESSION\isdc_git_workshop> git branch
+* main
+PS C:\GIT SESSION\isdc_git_workshop> git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 298 bytes | 74.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/swathipoojary11/isdc_git_workshop.git
+ * [new branch]      main -> main
+PS C:\GIT SESSION\isdc_git_workshop> g
